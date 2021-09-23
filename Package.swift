@@ -22,11 +22,7 @@ let package = Package(
         .target(
             name: "xxHash_Swift",
             dependencies: [],
-            path: "Sources/xxHash/",
-            exclude: ["xxHash.xcodeproj", "README.md", "Sources/xxHash/Info.plist", "Sources/xxHash/xxHash.h"]),
-        .testTarget(
-            name: "xxHashTests",
-            dependencies: ["xxHash_Swift"]),
+            path: "Sources/xxHash/"),
     ],
     swiftLanguageVersions: [.v5]
 )
